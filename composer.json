@@ -1,0 +1,18 @@
+{
+    "name": "clickio/clickio-prism",
+    "description": "Clickio Prism",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Clickio",
+            "email": "wp-plugin@clickio.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Clickio\\": "src"
+        }
+    }
+}

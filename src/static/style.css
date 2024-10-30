@@ -1,0 +1,146 @@
+/* Add Dashicon */
+#wpadminbar #wp-admin-bar-purge-cache .ab-icon {
+  float: left;
+  width: 26px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: 0 8px;
+  background-size: 20px;
+}
+
+/* Add Style icon properly */
+span.dashicons.clickioamp {
+  vertical-align: middle;
+}
+
+/* Allow display on small screen */
+@media screen and (max-width: 782px) {
+  #wpadminbar #wp-admin-bar-purge-cache .ab-icon,
+  #wpadminbar li#wp-admin-bar-purge-cache {
+    margin-left: 5px;
+    display: block !important;
+    background-size: 36px;
+    height: 46px;
+    width: 52px;
+  }
+}
+
+#clickio-prism-wp-plugin #cl-settings .disabled {
+  pointer-events: none;
+  color: #555
+}
+
+#clickio-prism-wp-plugin #cl-settings .invisible {
+  display: none;
+}
+
+#clickio-prism-wp-plugin #cl-settings {
+  padding: 20px 0 0;
+}
+#clickio-prism-wp-plugin #cl-settings #cl-logo {
+  background: url(https://adexchange.clickio.com/i/clickio/logo_single.png) no-repeat 0 0;
+  width: 150px;
+  height: 50px;
+}
+#clickio-prism-wp-plugin #cl-settings h2 {
+  font-size: 2em;
+}
+
+#clickio-prism-wp-plugin #cl-settings #tabs ul{
+  list-style: none;
+}
+
+#clickio-prism-wp-plugin #cl-settings #tabs .nav-tab {
+  margin-bottom: -1px;
+  border-bottom: 1px solid #ccc;
+  padding: 0px;
+}
+
+#clickio-prism-wp-plugin #cl-settings #tabs .nav-tab a {
+  color: #555;
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+}
+#clickio-prism-wp-plugin #cl-settings #tabs .nav-tab a:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#clickio-prism-wp-plugin #cl-settings #tabs .nav-tab.ui-state-active {
+  background: #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+}
+#clickio-prism-wp-plugin #cl-settings #tabs .nav-tab.ui-state-active a {
+  color: #000;
+}
+
+#clickio-prism-wp-plugin #cl-settings #tabs .tab-content:not(.active){
+  display: none
+}
+
+#clickio-prism-wp-plugin #cl-settings #tabs .nav-tab-wrapper{
+  border-bottom: 1px solid #ccc;
+  margin: 0;
+  padding-top: 9px;
+  padding-bottom: 0;
+  line-height: inherit;
+}
+
+#clickio-prism-wp-plugin #cl-settings .important-setting {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#clickio-prism-wp-plugin #cl-settings .important-setting input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+  padding: 2px !important;
+}
+
+#clickio-prism-wp-plugin #cl-settings textarea {
+  width: 60%;
+  height: 200px;
+}
+
+#clickio-prism-wp-plugin .notification .error{
+  margin-left: 0px;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+
+#clickio-prism-wp-plugin .extra_table{
+  width: 80%;
+  margin-top: 20px;
+}
+
+#clickio-prism-wp-plugin .extra_choice_item{
+  width: 25%;
+  padding: 5px 0px;
+}
+
+#clickio-prism-wp-plugin .extra_choice_item label{
+  display: flex;
+  align-items: center;
+}
+#clickio-prism-wp-plugin .extra_choice_item label .label-text{
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 5px;
+}
+
+#clickio-prism-wp-plugin .extra_table .flex_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#clickio-prism-wp-plugin .hidden {
+  display: none !important;
+  visibility: hidden !important;
+}

@@ -1,0 +1,201 @@
+[
+    {
+        "namespace": "clickio",
+        "route": "/media/(?P<id>\\d+)",
+        "methods": ["GET"],
+        "callback": "GetMedia",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/menus",
+        "methods": ["GET"],
+        "callback": "GetMenus",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/menus/(?P<id>\\d+)",
+        "methods": ["GET"],
+        "callback": "GetMenu",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/post/(?P<id>\\d+)",
+        "methods": ["GET"],
+        "callback": "GetPost",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/page/(?P<id>\\d+)",
+        "methods": ["GET"],
+        "callback": "GetPage",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/percent/(?P<percent>\\d+)",
+        "methods": ["GET"],
+        "callback": "SetPercent",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/ab/(?P<id>\\d+)",
+        "methods": ["GET"],
+        "callback": "SetAB",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/lists",
+        "methods": ["POST"],
+        "callback": "GetLists",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/lists/debug",
+        "methods": ["POST"],
+        "callback": "DebugLists",
+        "debug_only": true
+    },
+    {
+        "namespace": "clickio",
+        "route": "/version",
+        "methods": ["GET"],
+        "callback": "Version",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/toggle_preview",
+        "methods": ["GET"],
+        "callback": "TogglePreview",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/sync_settings",
+        "methods": ["GET", "POST"],
+        "callback": "SyncSettings",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/integration",
+        "methods": ["GET"],
+        "callback": "Integration",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/authenticate",
+        "methods": ["GET"],
+        "callback": "Authenticate",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/captcha",
+        "methods": ["GET"],
+        "callback": "Captcha",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/comment",
+        "methods": ["POST", "DELETE", "PATCH"],
+        "callback": "Comment",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/taxonomies",
+        "methods": ["GET"],
+        "callback": "Taxonomies",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio/protected",
+        "route": "/purge_cache",
+        "methods": ["POST"],
+        "callback": "PurgeCache",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/log_reader",
+        "methods": ["GET"],
+        "callback": "LogReader",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/user",
+        "methods": ["GET"],
+        "callback": "User",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/check_update",
+        "methods": ["GET"],
+        "callback": "CheckUpdate",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/addon",
+        "methods": ["GET", "POST", "DELETE"],
+        "callback": "Addons",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/subscribe",
+        "methods": ["POST"],
+        "callback": "Subscribe",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio/protected",
+        "route": "/status",
+        "methods": ["GET"],
+        "callback": "Status",
+        "debug_only": false
+    },
+    {
+        "namespace": "clickio",
+        "route": "/query_monitor",
+        "methods": ["GET", "POST"],
+        "callback": "QueryMonitor",
+        "debug_only": false
+    },{
+        "namespace": "clickio",
+        "route": "/policy",
+        "methods": ["POST"],
+        "callback": "PolicyCheck",
+        "debug_only": false
+    },{
+        "namespace": "clickio/protected",
+        "route": "/acme",
+        "methods": ["GET", "POST", "DELETE"],
+        "callback": "AcmeChallenge",
+        "debug_only": false
+    },{
+        "namespace": "clickio",
+        "route": "/advanced-cache",
+        "methods": ["GET", "POST", "DELETE"],
+        "callback": "AdvancedCache",
+        "debug_only": false
+    },{
+        "namespace": "clickio",
+        "route": "/task",
+        "methods": ["GET", "DELETE"],
+        "callback": "Task",
+        "debug_only": false
+    }
+]
